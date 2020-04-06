@@ -10,7 +10,7 @@ import UIKit
 
 class LoginVC: UIViewController {
     private let postarray : [PostType] = [PostType]()
-    let login = CustomLoginScreen(borderColor: .orange, buttoncolor: .cyan)
+    let login = CustomLoginScreen(borderColor: .orange, buttoncolor: .orange)
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = .white
@@ -25,7 +25,7 @@ class LoginVC: UIViewController {
 //                                                    "postImageData":data.base64EncodedString(),
 //                                                    "postImageName":"margot.jpg"]
 //            DataManager.init(string: "http://localhost:8080/setPost", type: .POST).requestPOST(params: params)
-            DataManager.init(string: "http://localhost:8080/getbyId/2", type: .GET).reqeustPostType()
+//            DataManager.init(string: "http://localhost:8080/getbyId/2", type: .GET).reqeustPostType()
         
         NotificationCenter.default.addObserver(self, selector: #selector(showImage(notification:)), name: NSNotification.Name("post"), object:nil)
     }

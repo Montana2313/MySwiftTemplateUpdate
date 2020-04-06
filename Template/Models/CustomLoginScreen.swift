@@ -31,7 +31,7 @@ class CustomLoginScreen {
     private var kayitUsername = UITextField()
     private var kayitPassword = UITextField()
     private var kayitPassword2 = UITextField()
-    private var loginButton = UIButton()
+    var loginButton = UIButton()
     private var kayitolButton = UIButton()
     init(borderColor:UIColor,buttoncolor:UIColor) {
         self.borderColor = borderColor
