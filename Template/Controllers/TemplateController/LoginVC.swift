@@ -9,6 +9,7 @@
 import UIKit
 
 class LoginVC: UIViewController {
+     let responder = responders()
     private let postarray : [PostType] = [PostType]()
     let login = CustomLoginScreen(borderColor: .orange, buttoncolor: .orange)
     override func viewDidLoad() {
@@ -26,7 +27,8 @@ class LoginVC: UIViewController {
 //                                                    "postImageName":"margot.jpg"]
 //            DataManager.init(string: "http://localhost:8080/setPost", type: .POST).requestPOST(params: params)
 //            DataManager.init(string: "http://localhost:8080/getbyId/2", type: .GET).reqeustPostType()
-        
+        responder.viewController = self
+        self.view.addGestureRecognizer(UITapGestureRecognizer(target: responder, action: #selector(responder.viewEditing)))
         NotificationCenter.default.addObserver(self, selector: #selector(showImage(notification:)), name: NSNotification.Name("post"), object:nil)
     }
     @objc func showImage(notification:NSNotification){

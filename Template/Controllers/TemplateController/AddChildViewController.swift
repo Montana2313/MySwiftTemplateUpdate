@@ -9,6 +9,7 @@
 import UIKit
 
 class AddChildViewController: UIViewController {
+      let responder = responders()
        private let loginVC = LoginVC()
        var deneme = false
        let customView =  DefaultItems.referance.defView(withColor: .clear)

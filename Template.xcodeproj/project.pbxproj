@@ -19,7 +19,6 @@
 		04DE04442340C34200708D66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE04432340C34200708D66 /* ViewController.swift */; };
 		04DE04492340C34400708D66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DE04482340C34400708D66 /* Assets.xcassets */; };
 		04DE044C2340C34400708D66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DE044A2340C34400708D66 /* LaunchScreen.storyboard */; };
-		04DE04582340C44C00708D66 /* Generals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE04572340C44C00708D66 /* Generals.swift */; };
 		04DE045A2340C6A100708D66 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE04592340C6A100708D66 /* User.swift */; };
 		04DE045C2340C77E00708D66 /* SetAndGetFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE045B2340C77E00708D66 /* SetAndGetFiles.swift */; };
 		04DE045E2340D1E200708D66 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DE045D2340D1E200708D66 /* Reachability.swift */; };
@@ -28,6 +27,11 @@
 		04E1A61A2341DCFC00C4B67A /* exCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1A6192341DCFC00C4B67A /* exCell.swift */; };
 		04E1A61D2341DEA000C4B67A /* exView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1A61C2341DEA000C4B67A /* exView.swift */; };
 		04E55A6123A835790036D1A6 /* Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E55A6023A835790036D1A6 /* Frames.swift */; };
+		04E7316E243BE43500EBBAAD /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7316D243BE43500EBBAAD /* Enums.swift */; };
+		04E73170243BE47E00EBBAAD /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7316F243BE47D00EBBAAD /* Protocols.swift */; };
+		04E73172243BE4D300EBBAAD /* GeneralFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E73171243BE4D300EBBAAD /* GeneralFunctions.swift */; };
+		04E73174243BE50C00EBBAAD /* VarDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E73173243BE50C00EBBAAD /* VarDefines.swift */; };
+		04E73176243BE56400EBBAAD /* StructsAndClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E73175243BE56400EBBAAD /* StructsAndClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +49,6 @@
 		04DE04482340C34400708D66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DE044B2340C34400708D66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DE044D2340C34400708D66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04DE04572340C44C00708D66 /* Generals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generals.swift; sourceTree = "<group>"; };
 		04DE04592340C6A100708D66 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		04DE045B2340C77E00708D66 /* SetAndGetFiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetAndGetFiles.swift; sourceTree = "<group>"; };
 		04DE045D2340D1E200708D66 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
@@ -54,6 +57,11 @@
 		04E1A6192341DCFC00C4B67A /* exCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exCell.swift; sourceTree = "<group>"; };
 		04E1A61C2341DEA000C4B67A /* exView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exView.swift; sourceTree = "<group>"; };
 		04E55A6023A835790036D1A6 /* Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frames.swift; sourceTree = "<group>"; };
+		04E7316D243BE43500EBBAAD /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		04E7316F243BE47D00EBBAAD /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		04E73171243BE4D300EBBAAD /* GeneralFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralFunctions.swift; sourceTree = "<group>"; };
+		04E73173243BE50C00EBBAAD /* VarDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VarDefines.swift; sourceTree = "<group>"; };
+		04E73175243BE56400EBBAAD /* StructsAndClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructsAndClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044F5C6F243BE62700619373 /* TemplateController */ = {
+			isa = PBXGroup;
+			children = (
+				04DE04432340C34200708D66 /* ViewController.swift */,
+				0453CE6C237B6DB50023A2A8 /* LoginVC.swift */,
+				042687E1237E1AE800A73234 /* CustomMenus.swift */,
+				0479567F243A84EA00BC8AC2 /* AddChildViewController.swift */,
+			);
+			path = TemplateController;
+			sourceTree = "<group>";
+		};
 		04DE04332340C34200708D66 = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +122,7 @@
 		04DE04532340C40400708D66 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				04DE04432340C34200708D66 /* ViewController.swift */,
-				0453CE6C237B6DB50023A2A8 /* LoginVC.swift */,
-				042687E1237E1AE800A73234 /* CustomMenus.swift */,
-				0479567F243A84EA00BC8AC2 /* AddChildViewController.swift */,
+				044F5C6F243BE62700619373 /* TemplateController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -133,12 +149,9 @@
 		04DE04562340C41900708D66 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				04DE04572340C44C00708D66 /* Generals.swift */,
+				04E73178243BE5D900EBBAAD /* UI */,
+				04E73177243BE5AF00EBBAAD /* Generals */,
 				04DE045D2340D1E200708D66 /* Reachability.swift */,
-				04DE045F2340D23100708D66 /* DefaultItems.swift */,
-				04E1A6172341DBB400C4B67A /* CustomizeItems.swift */,
-				04396531238F1C7100D37A5C /* CustomAlerts.swift */,
-				04E55A6023A835790036D1A6 /* Frames.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -147,9 +160,32 @@
 			isa = PBXGroup;
 			children = (
 				04E1A61C2341DEA000C4B67A /* exView.swift */,
-				044295DC2438C681005D7C25 /* customShapes.swift */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		04E73177243BE5AF00EBBAAD /* Generals */ = {
+			isa = PBXGroup;
+			children = (
+				04E7316D243BE43500EBBAAD /* Enums.swift */,
+				04E7316F243BE47D00EBBAAD /* Protocols.swift */,
+				04E73171243BE4D300EBBAAD /* GeneralFunctions.swift */,
+				04E73173243BE50C00EBBAAD /* VarDefines.swift */,
+				04E73175243BE56400EBBAAD /* StructsAndClasses.swift */,
+			);
+			path = Generals;
+			sourceTree = "<group>";
+		};
+		04E73178243BE5D900EBBAAD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				044295DC2438C681005D7C25 /* customShapes.swift */,
+				04DE045F2340D23100708D66 /* DefaultItems.swift */,
+				04E1A6172341DBB400C4B67A /* CustomizeItems.swift */,
+				04396531238F1C7100D37A5C /* CustomAlerts.swift */,
+				04E55A6023A835790036D1A6 /* Frames.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,15 +268,19 @@
 				044295DD2438C681005D7C25 /* customShapes.swift in Sources */,
 				04E55A6123A835790036D1A6 /* Frames.swift in Sources */,
 				04DE04402340C34200708D66 /* AppDelegate.swift in Sources */,
-				04DE04582340C44C00708D66 /* Generals.swift in Sources */,
 				04E1A6182341DBB400C4B67A /* CustomizeItems.swift in Sources */,
+				04E73176243BE56400EBBAAD /* StructsAndClasses.swift in Sources */,
 				0453CE6B237B68A10023A2A8 /* CustomLoginScreen.swift in Sources */,
 				04DE04602340D23100708D66 /* DefaultItems.swift in Sources */,
 				042687E2237E1AE800A73234 /* CustomMenus.swift in Sources */,
 				04E1A61D2341DEA000C4B67A /* exView.swift in Sources */,
+				04E73170243BE47E00EBBAAD /* Protocols.swift in Sources */,
 				0463F6EE235351EA00667F47 /* DataManager.swift in Sources */,
 				04DE045C2340C77E00708D66 /* SetAndGetFiles.swift in Sources */,
 				04DE045A2340C6A100708D66 /* User.swift in Sources */,
+				04E7316E243BE43500EBBAAD /* Enums.swift in Sources */,
+				04E73174243BE50C00EBBAAD /* VarDefines.swift in Sources */,
+				04E73172243BE4D300EBBAAD /* GeneralFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
